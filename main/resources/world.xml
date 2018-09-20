@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<world
+    xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+    xsi:noNamespaceSchemaLocation='jaxb/World/worldSchema.xsd'>
+    <name>Watch n' Earn Real Money</name>
+    <logo>icones/bigben.jpg</logo>
+    <money>Euro</money>
+    <score>0</score>
+    <totalangels>0</totalangels>
+    <activeangels>0</activeangels>
+    <angelbonus>2</angelbonus>
+    <lastupdate></lastupdate>
+    <products>
+        <product>
+            <id>1</id>
+            <name>Seiko</name>
+            <logo>icones/1_watch.jpg</logo>
+            <cout>2</cout>
+            <croissance>1.06</croissance>
+            <revenu>2</revenu>
+            <vitesse>1500</vitesse>
+            <quantite>1</quantite>
+            <timeleft>0</timeleft>
+            <managerUnlocked>0</managerUnlocked>
+            <palliers>
+                <pallier>
+                    <name>Seiko x2</name>
+                    <logo>icones/1_watch.jpg</logo>
+                    <seuil>10</seuil>
+                    <idcible>1</idcible>
+                    <ratio>2</ratio>
+                    <typeratio>GAIN</typeratio>
+                    <unlocked></unlocked>
+                </pallier>
+                <pallier>
+                    <name>Seiko x3</name>
+                    <logo>icones/1_watch.jpg</logo>
+                    <seuil>50</seuil>
+                    <idcible>1</idcible>
+                    <ratio>3</ratio>
+                    <typeratio>VITESSE</typeratio>
+                    <unlocked></unlocked>
+                </pallier>
+            </palliers>
+        </product>
+        <product>
+            <id>2</id>
+            <name>Montre en or</name>
+            <logo>icones/2_watch.jpg</logo>
+            <cout>4</cout>
+            <croissance>1.15</croissance>
+            <revenu>60</revenu>
+            <vitesse>5000</vitesse>
+            <quantite>0</quantite>
+            <timeleft>0</timeleft>
+            <managerUnlocked>false</managerUnlocked>
+            <palliers>
+                <pallier>
+                    <name>Montre en or x2</name>
+                    <logo>icones/2_watch.jpg</logo>
+                    <seuil>10</seuil>
+                    <idcible>2</idcible>
+                    <ratio>2</ratio>
+                    <typeratio>GAIN</typeratio>
+                    <unlocked></unlocked>
+                </pallier>
+                <pallier>
+                    <name>Montre en or x3</name>
+                    <logo>icones/2_watch.jpg</logo>
+                    <seuil>50</seuil>
+                    <idcible>2</idcible>
+                    <ratio>3</ratio>
+                    <typeratio>VITESSE</typeratio>
+                    <unlocked></unlocked>
+                </pallier>
+            </palliers>
+        </product>
+        <product>
+            <id>3</id>
+            <name>Piaget</name>
+            <logo>icones/3_watch.jpg</logo>
+            <cout>2500</cout>
+            <croissance>14</croissance>
+            <revenu>540</revenu>
+            <vitesse>30000</vitesse>
+            <quantite>0</quantite>
+            <timeleft>0</timeleft>
+            <managerUnlocked>false</managerUnlocked>
+            <palliers>
+                <pallier>
+                    <name>Piaget x2</name>
+                    <logo>icones/2_watch.jpg</logo>
+                    <seuil>10</seuil>
+                    <idcible>3</idcible>
+                    <ratio>2</ratio>
+                    <typeratio>GAIN</typeratio>
+                    <unlocked></unlocked>
+                </pallier>
+                <pallier>
+                    <name>Piaget x3</name>
+                    <logo>icones/2_watch.jpg</logo>
+                    <seuil>50</seuil>
+                    <idcible>3</idcible>
+                    <ratio>3</ratio>
+                    <typeratio>VITESSE</typeratio>
+                    <unlocked></unlocked>
+                </pallier>
+            </palliers>
+        </product>
+        <product>
+            <id>4</id>
+            <name>Montre de Rick Ross</name>
+            <logo>icones/4_watch.jpg</logo>
+            <cout>120000</cout>
+            <croissance>14</croissance>
+            <revenu>10040</revenu>
+            <vitesse>30</vitesse>
+            <quantite>0</quantite>
+            <timeleft>0</timeleft>
+            <managerUnlocked>false</managerUnlocked>
+            <palliers>
+                <pallier>
+                    <name>Montre de Rick Ross x2</name>
+                    <logo>icones/4_watch.jpg</logo>
+                    <seuil>10</seuil>
+                    <idcible>4</idcible>
+                    <ratio>2</ratio>
+                    <typeratio>GAIN</typeratio>
+                    <unlocked></unlocked>
+                </pallier>
+                <pallier>
+                    <name>Montre de Rick Ross x3</name>
+                    <logo>icones/4_watch.jpg</logo>
+                    <seuil>50</seuil>
+                    <idcible>4</idcible>
+                    <ratio>3</ratio>
+                    <typeratio>VITESSE</typeratio>
+                    <unlocked></unlocked>
+                </pallier>
+            </palliers>
+        </product>
+    </products>
+    <allunlocks>
+        <pallier>
+            <name></name>
+            <logo></logo>
+            <seuil></seuil>
+            <idcible></idcible>
+            <ratio></ratio>
+            <typeratio></typeratio>
+            <unlocked></unlocked>
+        </pallier>
+        <pallier>
+            <name></name>
+            <logo></logo>
+            <seuil></seuil>
+            <idcible></idcible>
+            <ratio></ratio>
+            <typeratio></typeratio>
+            <unlocked></unlocked>
+        </pallier>
+        <pallier>
+            <name></name>
+            <logo></logo>
+            <seuil></seuil>
+            <idcible></idcible>
+            <ratio></ratio>
+            <typeratio></typeratio>
+            <unlocked></unlocked>
+        </pallier>
+    </allunlocks>
+    <upgrades>
+        <pallier>
+                <name>Montre 1</name>
+                <logo></logo>
+                <seuil>1000</seuil>
+                <idcible>1</idcible>
+                <ratio>50</ratio>
+                <typeratio>gain</typeratio>
+                <unlocked>false</unlocked>
+        </pallier>
+    </upgrades>
+    <angelupgrades>
+    </angelupgrades>
+    <managers>
+        <pallier>
+                <name>LilPump Jewerly</name>
+                <logo>icones/floyd.jpg</logo>
+                <seuil>100</seuil>
+                <idcible>1</idcible>
+                <ratio>50</ratio>
+                <typeratio>gain</typeratio>
+                <unlocked>false</unlocked>
+        </pallier>
+        <pallier>
+                <name>Blood Diamond Corp</name>
+                <logo>icones/blood.jpg</logo>
+                <seuil>400</seuil>
+                <idcible>2</idcible>
+                <ratio>50</ratio>
+                <typeratio>gain</typeratio>
+                <unlocked>false</unlocked>
+        </pallier>
+        <pallier>
+                <name>Didier Deschampions</name>
+                <logo>icones/didier.jpeg</logo>
+                <seuil>10000</seuil>
+                <idcible>3</idcible>
+                <ratio>50</ratio>
+                <typeratio>gain</typeratio>
+                <unlocked>false</unlocked>
+        </pallier>
+        <pallier>
+                <name>Goldie</name>
+                <logo>icones/goldie.jpg</logo>
+                <seuil>50000</seuil>
+                <idcible>4</idcible>
+                <ratio>50</ratio>
+                <typeratio>gain</typeratio>
+                <unlocked>false</unlocked>
+        </pallier>
+    </managers>
+
+</world>
